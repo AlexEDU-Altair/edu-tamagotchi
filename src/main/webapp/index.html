@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tamagotchi</title>
+</head>
+<body>
+	
+	<label>Nombre: 
+		<input type="text" id="introducirNombre">
+	</label>
+	
+	<button onclick="ponerNombre()">Llamar</button>
+	
+	<h2 id="nombre">Tamagotchi </h2>
+	
+	<p id="energia">Energía: 10</p>
+	<p id="hambre">Hambre: 0</p>
+	
+	<button onclick="tamagotchi.jugar()">Jugar</button>
+	<button onclick="tamagotchi.comer()">Comer</button>
+	
+<script src="vida.js"></script>
+</body>
+</html>
